@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RemoveUpdater</Text>
+    <Description>Some description for RemoveUpdater</Description>
+    <Assembly>RemoveUpdater.dll</Assembly>
+    <FullClassName>RemoveUpdater.Command</FullClassName>
+    <ClientId>859a93ca-ebdc-4826-ae7b-0d0e2690ed83</ClientId>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RemoveUpdater</Name>
+    <Assembly>RemoveUpdater.dll</Assembly>
+    <ClientId>b8d1fee0-ae72-4287-ad09-2a98a35b9eab</ClientId>
+    <FullClassName>RemoveUpdater.App</FullClassName>
+  </AddIn>
+</RevitAddIns>

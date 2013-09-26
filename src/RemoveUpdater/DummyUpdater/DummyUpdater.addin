@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DummyUpdater</Text>
+    <Description>Some description for DummyUpdater</Description>
+    <Assembly>DummyUpdater.dll</Assembly>
+    <FullClassName>DummyUpdater.Command</FullClassName>
+    <ClientId>73f74eeb-3405-4d99-85c4-611bda2080c3</ClientId>
+    <VendorId>ADSK</VendorId>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DummyUpdater</Name>
+    <Assembly>DummyUpdater.dll</Assembly>
+    <ClientId>5a6cd6c9-a631-41cf-88f4-df4000f800ef</ClientId>
+    <FullClassName>DummyUpdater.App</FullClassName>
+    <VendorId>ADSK</VendorId>
+  </AddIn>
+</RevitAddIns>
